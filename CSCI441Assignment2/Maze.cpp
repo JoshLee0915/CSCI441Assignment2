@@ -74,7 +74,6 @@ string Maze::dispayMaze()
 {
 	string mazeDsp = "";
 	string* maze = new string[height*3];
-	string* cell;
 	for (int y = 0; y < height*3;y++)
 	{
 		maze[y] = "";
